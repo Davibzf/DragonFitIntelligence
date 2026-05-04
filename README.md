@@ -20,13 +20,19 @@ O teste deve ser feito diretamente pelo Telegram.
 https://t.me/DragonFitIntelligencebot
 ```
 
-2. Clique em `Iniciar` ou envie:
+2. Clique em `Start` ou `Help`:
 
 ```text
 /start
 ```
 
-3. Informe o nivel inicial e o nivel final quando o bot pedir.
+3. Clique em `Calcauladora` Calculadora de Comida
+
+```text
+/calcular 
+```
+
+4. Informe o nivel inicial e o nivel final quando o bot pedir.
 
 Exemplo:
 
@@ -35,7 +41,7 @@ Nivel inicial: 1
 Nivel final: 10
 ```
 
-4. O bot vai retornar a quantidade total de comida necessaria.
+5. O bot vai retornar a quantidade total de comida necessaria.
 
 ## Exemplo de resposta
 
