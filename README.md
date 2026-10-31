@@ -1,88 +1,102 @@
-# DragonFit Intelligence
+<div align="center">
 
-Bot para Telegram que calcula a quantidade de comida necessaria para evoluir de um nivel inicial ate um nivel final.
+# 🐉 DragonFit Intelligence
 
-Este repositorio publico serve para apresentar o projeto e explicar como testar o bot. O codigo-fonte nao esta disponivel publicamente.
+**Planeje a alimentação dos seus dragões pelo Telegram.**
 
-## Links
+Calcule a quantidade de comida necessária para evoluir entre dois níveis em Dragon City, em uma conversa com o bot.
 
-- Bot no Telegram: [@DragonFitIntelligencebot](https://t.me/DragonFitIntelligencebot)
-- Repositorio: [DragonFitIntelligence](https://github.com/Davibzf/DragonFitIntelligence)
-- Autor: [Davibzf](https://github.com/Davibzf)
+[![Abrir no Telegram](https://img.shields.io/badge/Telegram-Abrir_bot-26A5E4?logo=telegram&logoColor=white)](https://t.me/DragonFitIntelligencebot)
+[![Conhecer o DragonFit](https://img.shields.io/badge/DragonFit-Explorar_o_atlas-286650)](https://dragonfit.vercel.app/)
 
-## Como testar
+[Acessar o bot](https://t.me/DragonFitIntelligencebot) · [Visitar o site](https://dragonfit.vercel.app/) · [Enviar uma sugestão](https://github.com/Davibzf/DragonFitIntelligence/issues)
 
-O teste deve ser feito diretamente pelo Telegram.
+</div>
 
-1. Acesse o bot:
+---
 
-```text
-https://t.me/DragonFitIntelligencebot
-```
+## Sobre o projeto
 
-2. Clique em `Start` ou `Help`:
+O **DragonFit Intelligence** é um bot para Telegram que ajuda jogadores de Dragon City a planejar a alimentação de seus dragões. Você informa o nível inicial e o nível desejado, e o bot consulta a tabela de comida usada pelo projeto para calcular o total necessário.
 
-```text
-/start
-```
+Este repositório é a página pública de apresentação e documentação do bot. **O código-fonte não está disponível publicamente.** Para utilizar a calculadora, basta acessar o Telegram; não é necessário clonar o repositório nem configurar um ambiente de desenvolvimento.
 
-3. Clique em `Calcauladora` Calculadora de Comida
+## O que você pode fazer
 
-```text
-/calcular 
-```
+- **Calcular a comida entre dois níveis:** informe de onde seu dragão parte e até onde pretende evoluí-lo.
+- **Consultar o resultado no Telegram:** siga as instruções da conversa para receber o total.
+- **Ler valores com facilidade:** os totais usam ponto como separador de milhares.
+- **Enviar sugestões e relatar problemas:** use as [issues deste repositório](https://github.com/Davibzf/DragonFitIntelligence/issues).
 
-4. Informe o nivel inicial e o nivel final quando o bot pedir.
+## Como usar
 
-Exemplo:
+1. Abra o [@DragonFitIntelligencebot](https://t.me/DragonFitIntelligencebot) no Telegram.
+2. Toque em **Iniciar / Start** ou envie `/start`.
+3. Selecione a opção de calculadora de comida ou envie `/calcular`.
+4. Quando o bot solicitar, informe o **nível inicial** e o **nível final**.
+5. Consulte a quantidade total de comida retornada pelo bot.
 
-```text
-Nivel inicial: 1
-Nivel final: 10
-```
+### Exemplo de consulta
 
-5. O bot vai retornar a quantidade total de comida necessaria.
+Para planejar a evolução de um dragão do nível 1 ao nível 10, informe estes valores quando forem solicitados:
 
-## Exemplo de resposta
+| Campo | Valor |
+| --- | --- |
+| Nível inicial | `1` |
+| Nível final | `10` |
 
-```text
-------------------------------
-CALCULO DE COMIDA
-NIVEL INICIAL: 1
-NIVEL FINAL: 10
-COMIDA NECESSARIA: 1.280
-------------------------------
-```
+O total de comida será informado na conversa, conforme a tabela disponível no bot.
 
-## Funcionalidades
+### Comandos
 
-- calcula comida necessaria entre dois niveis
-- formata numeros grandes com ponto
-- funciona direto no Telegram
-- nao precisa instalar nada para testar
+| Comando | Função |
+| --- | --- |
+| `/start` | Inicia a conversa com o bot. |
+| `/calcular` | Abre o fluxo de cálculo de comida. |
 
-## Observacoes
+## Antes de calcular
 
-- Informe apenas numeros inteiros.
-- O nivel inicial deve ser menor ou igual ao nivel final.
-- O bot depende da tabela de comida usada pelo projeto.
-- Caso algum nivel ainda nao esteja disponivel, o calculo pode nao ser retornado.
+- Informe apenas **números inteiros**.
+- O nível inicial deve ser **menor ou igual** ao nível final.
+- O cálculo depende dos níveis contemplados na tabela do projeto.
+- Se um nível ainda não estiver disponível, o bot poderá não retornar o cálculo.
+- Confira no jogo as condições e os requisitos para evoluir seu dragão.
 
-## Sobre o repositorio
+## Dúvidas frequentes
 
-Este repositorio e publico, mas nao contem o codigo-fonte do bot.
+**Preciso instalar alguma coisa?**  
+Você precisa acessar o Telegram, pelo aplicativo ou pela versão web. O bot não exige instalação adicional.
 
-Ele pode ser usado para:
+**Posso executar o bot no meu computador?**  
+Este repositório não inclui o código-fonte nem instruções de hospedagem. O uso público acontece pelo bot no Telegram.
 
-- apresentar o projeto
-- explicar como testar pelo Telegram
-- receber sugestoes e feedbacks
-- registrar melhorias futuras
+**O resultado considera qualquer situação do jogo?**  
+O cálculo utiliza a tabela de comida do projeto. Condições específicas do jogo devem ser conferidas no próprio Dragon City.
 
-## Sugestoes
+**O bot é oficial de Dragon City?**  
+Não. O DragonFit é um projeto independente de fãs, sem vínculo oficial com a Socialpoint.
 
-Encontrou algum erro ou tem uma ideia de melhoria? Abra uma issue neste repositorio.
+## Problemas e sugestões
 
-## Licenca
+Encontrou um cálculo inesperado ou teve dificuldade para usar o bot? [Abra uma issue](https://github.com/Davibzf/DragonFitIntelligence/issues/new) e, se possível, inclua:
 
-Todos os direitos reservados.
+- Os níveis inicial e final informados.
+- O resultado recebido ou a mensagem exibida.
+- O resultado esperado e como você chegou a ele.
+- Uma captura de tela, sem dados pessoais.
+
+Sugestões de melhoria também são bem-vindas. Não publique tokens, credenciais ou conversas que contenham informações privadas.
+
+## Projeto DragonFit
+
+| Link | Onde acessar |
+| --- | --- |
+| Bot no Telegram | [@DragonFitIntelligencebot](https://t.me/DragonFitIntelligencebot) |
+| Site e atlas dos dragões | [dragonfit.vercel.app](https://dragonfit.vercel.app/) |
+| Autor | [Davibzf](https://github.com/Davibzf) |
+
+## Direitos e créditos
+
+Dragon City, seus personagens, nomes e artes pertencem à **Socialpoint e aos respectivos titulares**. Este projeto é independente e não representa um produto oficial da empresa.
+
+**Todos os direitos reservados.** A publicação deste repositório não concede licença de uso, redistribuição ou modificação do código-fonte privado do bot.
