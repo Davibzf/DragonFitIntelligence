@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="292" viewBox="0 0 1080 292" fill="none">
+  <title>DragonFit Intelligence: calcular, consultar e planejar</title>
+  <desc>Três recursos: calcular comida entre níveis, consultar o total pelo Telegram e planejar a evolução do dragão.</desc>
+  <rect width="1080" height="292" rx="20" fill="#142C28"/>
+  <g fill="#1D3D34" stroke="#395A48">
+    <rect x="24" y="24" width="332" height="244" rx="12"/>
+    <rect x="374" y="24" width="332" height="244" rx="12"/>
+    <rect x="724" y="24" width="332" height="244" rx="12"/>
+  </g>
+  <g stroke="#E9C982" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="49" y="48" width="36" height="44" rx="5"/>
+    <path d="M57 59h20M57 70h3m14 0h3M57 81h3m14 0h3"/>
+    <path d="m401 57 45-10-14 43-10-17-21-16Z M422 73l24-26"/>
+    <path d="M751 89V71m14 18V61m14 28V49m-30 42h35M752 56l12-9 12-8"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <g fill="#F6EDD9" font-size="25" font-weight="700">
+      <text x="49" y="140">Calcule a comida</text>
+      <text x="399" y="140">Consulte no Telegram</text>
+      <text x="749" y="140">Planeje a evolução</text>
+    </g>
+    <g fill="#BBD0C0" font-size="18">
+      <text x="49" y="182">Do nível atual ao desejado,</text>
+      <text x="49" y="211">em uma única consulta.</text>
+      <text x="399" y="182">Siga a conversa e receba</text>
+      <text x="399" y="211">o total de alimentação.</text>
+      <text x="749" y="182">Saiba quanto reunir antes</text>
+      <text x="749" y="211">de alimentar seu dragão.</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="584" viewBox="0 0 1080 584" fill="none">
+  <title>Como usar o DragonFit Intelligence em quatro passos</title>
+  <desc>Abra o bot e envie /start. Acesse /calcular. Informe os níveis solicitados, como 1 e 10. Consulte o total retornado pelo bot. Este é um guia ilustrativo, não uma captura da interface.</desc>
+  <rect width="1080" height="584" rx="20" fill="#F1EBDD"/>
+  <g font-family="Arial, sans-serif">
+    <text x="36" y="50" fill="#286650" font-size="13" font-weight="700" letter-spacing="2">DO PRIMEIRO COMANDO AO SEU PLANO</text>
+    <text x="36" y="91" fill="#183E32" font-size="30" font-weight="700">Seu próximo nível começa aqui.</text>
+    <g fill="#FBF8EF" stroke="#D6C9AB">
+      <rect x="36" y="120" width="495" height="198" rx="12"/>
+      <rect x="549" y="120" width="495" height="198" rx="12"/>
+      <rect x="36" y="336" width="495" height="198" rx="12"/>
+      <rect x="549" y="336" width="495" height="198" rx="12"/>
+    </g>
+    <g fill="#286650">
+      <circle cx="75" cy="160" r="19"/><circle cx="588" cy="160" r="19"/>
+      <circle cx="75" cy="376" r="19"/><circle cx="588" cy="376" r="19"/>
+    </g>
+    <g fill="#FFF9E9" font-size="18" font-weight="700" text-anchor="middle">
+      <text x="75" y="166">1</text><text x="588" y="166">2</text>
+      <text x="75" y="382">3</text><text x="588" y="382">4</text>
+    </g>
+    <g fill="#183E32" font-size="22" font-weight="700">
+      <text x="107" y="168">Abra a conversa</text>
+      <text x="620" y="168">Acesse a calculadora</text>
+      <text x="107" y="384">Informe os níveis</text>
+      <text x="620" y="384">Consulte o total</text>
+    </g>
+    <g fill="#5D6F61" font-size="17">
+      <text x="58" y="206">Entre no bot e toque em Iniciar.</text>
+      <text x="571" y="206">Escolha o cálculo de comida.</text>
+      <text x="58" y="422">Responda quando o bot solicitar.</text>
+      <text x="571" y="422">O resultado aparece na conversa.</text>
+    </g>
+    <g fill="#E6EDDF">
+      <rect x="58" y="230" width="451" height="60" rx="8"/>
+      <rect x="571" y="230" width="451" height="60" rx="8"/>
+      <rect x="58" y="446" width="451" height="60" rx="8"/>
+      <rect x="571" y="446" width="451" height="60" rx="8"/>
+    </g>
+    <g fill="#225640" font-size="21" font-weight="600">
+      <text x="77" y="268" font-family="monospace">/start</text>
+      <text x="590" y="268" font-family="monospace">/calcular</text>
+      <text x="77" y="484">Exemplo: nível 1 → nível 10</text>
+      <text x="590" y="484">Comida para sua evolução</text>
+    </g>
+    <text x="36" y="563" fill="#6D786A" font-size="13">Guia ilustrativo. As mensagens e os valores são apresentados pelo próprio bot.</text>
+  </g>
+</svg>
