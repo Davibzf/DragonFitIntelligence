@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/dragonfit-logo.webp" width="320" alt="DragonFit — logo do projeto" />
+<img src="assets/brand.svg" width="520" alt="DragonFit Intelligence — identidade do projeto" />
 
 # DragonFit Intelligence
 
@@ -114,6 +114,7 @@ Sugestões de melhoria também são bem-vindas. Não publique tokens, credenciai
 DragonFitIntelligence/
 ├── README.md                  # Apresentação e guia de uso
 └── assets/
+    ├── brand.svg              # Apresentação da marca em fundo claro
     ├── dragonfit-logo.webp     # Identidade do projeto
     ├── dragonfit-cover.webp    # Arte conceitual de capa
     ├── features.svg            # Recursos em um resumo visual
